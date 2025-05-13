@@ -50,6 +50,7 @@ public class MyWorld extends World {
         {
             level+=1;
         }
+        
     }
     
     /**
@@ -62,5 +63,10 @@ public class MyWorld extends World {
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(apple, x, y);
+        if(score == 15)
+        {
+            Apple secondApple = new Apple();
+            addObject(secondApple, x, y);
+        }
     }
 }
