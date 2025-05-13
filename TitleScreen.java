@@ -40,7 +40,7 @@ public class TitleScreen extends World
     }
     
     /**
-     * Prepare the worldf or the start of the program.
+     * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
      */
     public void prepare()
